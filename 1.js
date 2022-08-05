@@ -1,7 +1,7 @@
 'use strict'
 //задание1
 
-Tc = +prompt('укажите температуру')
+Tc = Number.prompt('укажите температуру')
 Tf = (9 / 5) * Tc + 32
 alert(Tf)
 
